@@ -1,3 +1,5 @@
+CC=gcc
+CFLAGS=-Wall -Wextra -Werror -Wpedantic
 # Pravilo "all"
 all: build run
 
