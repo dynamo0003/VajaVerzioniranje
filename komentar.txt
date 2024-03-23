@@ -1,0 +1,4 @@
+Predprocesiranje v build_i je za obe arhitekturi enako. V datoteko main.i se vključijo vse knjižnice in makri.
+Kompilacija v build_s pretvori main.c v jezik strojne kode in tvori datoteko main.s. V strojni kodi je med arhitekturama več razlik, ob tem je v 64-bitnem načinu malce manj linij.
+Prevajanje v build_o pretvori jezik strojne kode v izvedljiv program na končni arhitekturi. Čeprav datoteke nemorem prebrati, sklepam da so razlike podobne kot v prejšnjem koraku.
+Za tem se datoteke povežejo in ustvarijo izvršljiv program, ki ga na koncu poženemo.
